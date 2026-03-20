@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="blueOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="50%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#ffffff"/>
+  
+  <!-- Stylized PS Icon -->
+  <g transform="translate(256, 256)">
+    <!-- P letter -->
+    <path d="M-90 -110 L-90 110 L-30 110 L-30 10 L30 10 C90 10, 110 -20, 110 -70 C110 -120, 80 -150, 30 -150 L-90 -150 Z" 
+          fill="url(#blueOrange)"/>
+    
+    <!-- S letter -->
+    <path d="M40 -30 C40 -70, 80 -90, 110 -90 C140 -90, 160 -70, 160 -50 C160 -30, 140 -20, 110 -10 L150 -10 C190 -10, 220 20, 220 60 C220 100, 190 130, 140 130 C100 130, 70 110, 60 70 L0 70 C10 130, 50 160, 100 160 C160 160, 190 130, 190 100 C190 70, 160 55, 110 45 C60 35, 40 10, 40 -30 Z" 
+          fill="url(#blueOrange)" transform="translate(20, 0)"/>
+    
+    <!-- Accent line -->
+    <rect x="-120" y="120" width="180" height="8" rx="4" fill="url(#blueOrange)" opacity="0.3"/>
+  </g>
+</svg>
