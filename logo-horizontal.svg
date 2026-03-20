@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="50%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#f97316"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon -->
+  <g transform="translate(50, 50)">
+    <path d="M-25 -25 L-25 25 L-15 25 L-15 -5 L5 -5 C15 -5, 22 -12, 22 -22 C22 -32, 15 -40, 5 -40 L-25 -40 Z" fill="url(#logoGrad)"/>
+    <path d="M15 -15 C15 -25, 22 -30, 28 -30 C34 -30, 38 -26, 38 -22 C38 -18, 34 -15, 28 -12 L38 -12 C44 -12, 48 -8, 48 -2 C48 4, 44 8, 38 8 C32 8, 26 4, 26 -4 L18 -4 C18 2, 22 8, 30 8 C38 8, 42 4, 42 0 C42 -4, 38 -6, 32 -8 C26 -10, 18 -14, 18 -22 L18 -28 L18 -28" fill="#f97316" opacity="0.9"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="110" y="42" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#f8fafc">Prime</text>
+  <text x="110" y="72" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="url(#logoGrad)">Site</text>
+  <text x="195" y="72" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#94a3b8"> Studio</text>
+</svg>
